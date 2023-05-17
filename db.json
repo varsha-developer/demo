@@ -1,0 +1,57 @@
+{
+  "user": [
+    {
+      "name": "va",
+      "kra": "yo++++",
+      "status": "inactive",
+      "id": 10
+    },
+    {
+      "name": "va",
+      "kra": "yog",
+      "status": "inactive",
+      "id": 13
+    },
+    {
+      "name": "va",
+      "kra": "yog",
+      "status": "inactive",
+      "id": 14
+    }
+  ],
+  "checkbox": [
+    {
+      "name": "minho",
+      "adress": "korea",
+      "hobbies": {
+        "dancing": true,
+        "singing": false
+      },
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "address": "123 Main St",
+      "hobbies": {
+        "dancing": true,
+        "singing": false
+      },
+      "gender": "male"
+    },
+    {
+      "name": " ",
+      "address": " ",
+      "hobbies": " ",
+      "gender": " ",
+      "id": 2
+    },
+    {
+      "name": " ",
+      "address": " ",
+      "hobbies": " ",
+      "gender": " ",
+      "id": 3
+    }
+  ]
+}

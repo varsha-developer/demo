@@ -1,0 +1,35 @@
+
+  table{
+    
+    border-collapse: collapse;
+  width: 100%;
+
+  margin: 0 auto;
+  box-shadow: 0 2px 4px black;
+  }
+  
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  a:hover {
+    color: #555;
+  }
+  
+  i {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  
+  .fa-edit {
+    color: #4CAF50;
+    margin-right: 10px;
+  }
+  
+  .fa-trash {
+    color: #f44336;
+  }
+  

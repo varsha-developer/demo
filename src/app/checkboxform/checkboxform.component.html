@@ -1,0 +1,52 @@
+<p>checkboxform works!</p>
+<div class="container">
+    <div class="card">
+<form [formGroup]="form">
+    <div>
+        <label for="name">name</label>
+        <input type="text" formControlName="name">
+    </div>
+    <div>
+        <label for="address">address</label>
+        <input type="text" formControlName="address">
+    </div> 
+    <!--<div>
+        <label for="hobbies" formControlName="hobbies">hobbies</label>
+        <input type="checkbox">Dancing
+        <input type="checkbox" >singing
+    </div> -->
+
+    <!-- <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="hobbies" id="flexCheckDefault" formControlName="hobbies">
+        <label class="form-check-label" for="flexCheckDefault">
+          dancing
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="hobbies" id="flexCheckChecked" formControlName="hobbies">
+        <label class="form-check-label" for="flexCheckChecked" >
+          singing
+        </label>
+      </div> -->
+      
+        
+       <div>
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="hobbies" formControlName="hobbies">
+        <label class="form-check-label" for="inlineCheckbox1">dancing</label>
+      </div>
+      <div >
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="hobbies" formControlName="hobbies">
+        <label class="form-check-label" for="inlineCheckbox2">singing</label>
+      </div>
+    
+    <div>
+        <label for="gender">gender</label>
+        <input type="radio" value="male" formControlName="gender">male
+        <input type="radio" value="female" formControlName="gender">female
+        <input type="radio" value="other" formControlName="gender">other
+    </div>
+</form>
+<button (click)="submit()">submit</button>
+</div>
+</div>
+ 

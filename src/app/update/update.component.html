@@ -1,0 +1,29 @@
+<p>update works!</p>
+<form [formGroup]="form">
+
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" formControlName="name">
+    </div>
+    <div>
+      <label for="kra">KRA:</label>
+      <input type="text" id="kra" formControlName="kra">
+    </div>
+    <div>
+      <label>Status:</label>
+      <div formControlName="status">
+        <label>
+          <input type="radio" value="active" formControlName="status"> Active
+        </label>
+        <label>
+          <input type="radio" value="inactive" formControlName="status"> Inactive
+        </label>
+      </div>
+    </div>
+    </form>
+    <div>
+
+        <div class="text-center mt-2">
+            <button type="submit" (click)="update()"  class="btn btn-primary">Update</button>&nbsp;
+            <button type="submit" routerLink="/body" class="btn btn-success">Back</button>
+          </div>
