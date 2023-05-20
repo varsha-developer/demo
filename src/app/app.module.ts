@@ -15,6 +15,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { UpdateComponent } from './update/update.component';
 import { CheckboxformComponent } from './checkboxform/checkboxform.component';
 import { AllsataService } from './allsata.service';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { AllsataService } from './allsata.service';
     TruncatePipe,
     BodyComponent,
     UpdateComponent,
-    CheckboxformComponent
+    CheckboxformComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

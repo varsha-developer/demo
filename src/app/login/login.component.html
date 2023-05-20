@@ -1,0 +1,16 @@
+<p>login works!</p>
+<form [formGroup]="userForm">
+    <div class="mb-3">
+      <label >Email</label>
+      <input type="text"class="form-control" formControlName="email">
+      <div  class="form-text" *ngIf="userForm.controls['email'].invalid && (userForm.controls['email'].dirty || userForm.controls['email'].touched)" class="text-danger">please Enter Valid Email</div>
+    </div>
+
+    <div class="mb-3">
+      <label >Password</label>
+      <input type="number" class="form-control" formControlName="password">
+      <div *ngIf="userForm.controls['password'].invalid && (userForm.controls['password'].dirty || userForm.controls['password'].touched)" class="text-danger">please Enter Valid Password</div>
+    </div>
+   
+    <button type="submit" class="btn btn-primary" (click)="submit()">Submit</button>
+  </form>
