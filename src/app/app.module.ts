@@ -17,6 +17,7 @@ import { CheckboxformComponent } from './checkboxform/checkboxform.component';
 import { AllsataService } from './allsata.service';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomeComponent } from './home/home.component';
     UpdateComponent,
     CheckboxformComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
